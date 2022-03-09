@@ -1,0 +1,52 @@
+.body{
+    background-color:rgb(161, 160, 160);
+    }
+    /* ==========================
+       Search Box
+       ========================== */
+    
+    .searchTerm:focus {
+      width: 175px;
+      background-color:rgb(218, 212, 212);
+      color: #000;
+      opacity:1;
+      -webkit-box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+      -moz-box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+      box-shadow:1px 1px 9px rgba(0,0,0,0.85);
+      font-weight:800;
+    }
+    
+    .searchTerm{
+    padding: 5px 10px;
+    background:#ccc;
+    color:#444;
+    border: 0;
+     width: 200px;
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    
+    -webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+    -moz-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.65);
+    outline: 0; 
+    }
+    
+    .searchBtn {
+        margin-left: 20px;
+        padding: 5px 5px;
+        background:rgb(255, 255, 255);
+        border: 0;
+        width: 50px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+        -moz-box-shadow:1px 1px 5px rgba(0,0,0,0.65);
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.65);
+        outline: 0; 
+        position: absolute;
+        border-radius: 50;
+        cursor: pointer;
+        font-weight: 600;
+    }
+   
